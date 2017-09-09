@@ -42,8 +42,7 @@ let ans = {
 	a: {x: lowestX, y: highestY},
 	b: {x: highestX, y: highestY},
 	c: {x: lowestX, y: lowestY},
-	d: {x: highestX, y: lowestY},
-	
+	d: {x: highestX, y: lowestY}
 };
 
 console.log(ans);
