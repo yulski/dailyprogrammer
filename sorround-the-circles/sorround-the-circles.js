@@ -14,22 +14,10 @@ for(let arr of input) {
 	let x = arr[0],
 		y = arr[1],
 		r = arr[2];
-	if((x - r) < lowestX) {
-		console.log('changing lowestX');
-		lowestX = (x - r);
-	}
-	if((x + r) > highestX) {
-		console.log('changing highestX');
-		highestX = (x + r);
-	}
-	if((y - r) < lowestY) {
-		console.log('changing lowestY');
-		lowestY = (y - r);
-	}
-	if((y + r) > highestY) {
-		console.log('changing highestY');
-		highestY = (y + r);
-	}
+	if((x - r) < lowestX) lowestX = (x - r);
+	if((x + r) > highestX) highestX = (x + r);
+	if((y - r) < lowestY) lowestY = (y - r);
+	if((y + r) > highestY) highestY = (y + r);
 }
 /*
 a------------b
